@@ -5,7 +5,8 @@ module.exports = {
     'stylelint-config-standard'
   ],
   'plugins': [
-    'stylelint-order'
+    'stylelint-order',
+    'stylelint-high-performance-animation'
   ],
   'rules': {
     'at-rule-empty-line-before': null,
@@ -246,6 +247,7 @@ module.exports = {
       'fill',
       'stroke'
     ],
+    'plugin/no-low-performance-animation-properties': true,
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': null,
     'selector-attribute-quotes': 'always',
