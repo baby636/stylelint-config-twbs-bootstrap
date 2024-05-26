@@ -37,8 +37,8 @@
     "stylelint-scss": "^3.19.0"
   },
   "devDependencies": {
-    "eslint": "^7.25.0",
-    "stylelint": "^13.13.1"
+    "eslint": "^9.0.0",
+    "stylelint": "^16.1.0"
   },
   "scripts": {
     "eslint": "eslint --report-unused-disable-directives .",
